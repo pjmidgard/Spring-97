@@ -756,9 +756,11 @@ class compression:
                                                    
                                                     
                                                 
-                                                    if C==1 and T!=0:
+                                                    if C==1:
+
+                                                        if T!=0:    
          
-                                                        Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file_17[1:(Deep5*8)+1]
+                                                                Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file_17[1:(Deep5*8)+1]
                                                         
                                                         lenf14=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                                         #print(lenf14)
