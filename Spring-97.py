@@ -362,7 +362,7 @@ class compression:
                                             
                                             
                                             else:
-                                                    er=ei%100
+                                                    er=ei%1000
                                                     if er==0:
                                                             T1=0
                                                             T2=0
