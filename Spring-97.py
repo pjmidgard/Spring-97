@@ -336,16 +336,17 @@ class compression:
                                                         Number_Row6="9"
 
                                                     else:
-                                                            T1=0
-                                                            T2=0
-                                                            T3=0
-                                                            T4=0
-                                                            T5=0
-                                                            T6=0
-                                                            T7=0
-                                                            T8=0
-                                                            T9=0
-                                                            Number_Row6=Number_Row2    
+
+                                                            Number_Row6=Number_Row2
+                                                    T1=0
+                                                    T2=0
+                                                    T3=0
+                                                    T4=0
+                                                    T5=0
+                                                    T6=0
+                                                    T7=0
+                                                    T8=0
+                                                    T9=0
                                                           
                                                     Number_Row1=Number_Row1+Number_Row6
                                                     #print(Number_Row6)
