@@ -339,6 +339,8 @@ class compression:
                                                     else:
 
                                                             Number_Row6=Number_Row2
+
+                                                    
                         
                                                     T1=0
                                                     T2=0
