@@ -305,34 +305,34 @@ class compression:
                                                     
                                                             
                                                             
-                                                    if T0==1:
+                                                    if T0==0:
                                                         Number_Row6="0"
                                                         
-                                                    elif T1==1:
+                                                    elif T1==0:
                                                         Number_Row6="1"
                                                 
-                                                    elif T2==1:
+                                                    elif T2==0:
                                                         Number_Row6="2"
                                                 
-                                                    elif T3==1:
+                                                    elif T3==0:
                                                         Number_Row6="3"
                                                        
-                                                    elif T4==1:
+                                                    elif T4==0:
                                                         Number_Row6="4"
                                                         
-                                                    elif T5==1:
+                                                    elif T5==0:
                                                         Number_Row6="5"
                                                            
-                                                    elif T6==1:
+                                                    elif T6==0:
                                                         Number_Row6="6"
 
-                                                    elif T7==1:
+                                                    elif T7==0:
                                                         Number_Row6="7"
 
-                                                    elif T8==1:
+                                                    elif T8==0:
                                                         Number_Row6="8"
 
-                                                    elif T9==1:
+                                                    elif T9==0:
                                                         Number_Row6="9"
                                                     
 
