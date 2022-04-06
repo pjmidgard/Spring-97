@@ -305,34 +305,34 @@ class compression:
                                                     
                                                             
                                                             
-                                                    if T0==4 and T1!=5 and T2!=4 and T3!=4 and T4!=4 and T5!=4 and T6!=4 and T7!=4 and T8!=4 and T9!=4:
+                                                    if T0==4 and T1!=5 and T2!=5 and T3!=5 and T4!=5 and T5!=5 and T6!=5 and T7!=5 and T8!=5 and T9!=5:
                                                         Number_Row6="0"
                                                         
-                                                    elif T0!=4 and T1==4 and T2!=4 and T3!=4 and T4!=4 and T5!=4 and T6!=4 and T7!=4 and T8!=4 and T9!=4:
+                                                    elif T0!=5 and T1==4 and T2!=5 and T3!=5 and T4!=5 and T5!=5 and T6!=5 and T7!=5 and T8!=5 and T9!=5:
                                                         Number_Row6="1"
                                                 
-                                                    elif T0!=4 and T1!=4 and T2==4 and T3!=4 and T4!=4 and T5!=4 and T6!=4 and T7!=4 and T8!=4 and T9!=4:
+                                                    elif T0!=5 and T1!=5 and T2==4 and T3!=5 and T4!=5 and T5!=5 and T6!=5 and T7!=5 and T8!=5 and T9!=5:
                                                         Number_Row6="2"
                                                 
-                                                    elif T0!=4 and T1!=4 and T2!=4 and T3==4 and T4!=4 and T5!=4 and T6!=4 and T7!=4 and T8!=4 and T9!=4: 
+                                                    elif T0!=4 and T1!=5 and T2!=5 and T3==4 and T4!=5 and T5!=5 and T6!=5 and T7!=5 and T8!=5 and T9!=5: 
                                                         Number_Row6="3"
                                                        
-                                                    elif T0!=4 and T1!=4 and T2!=4 and T3!=4 and T4==4 and T5!=4 and T6!=4 and T7!=4 and T8!=4 and T9!=4:
+                                                    elif T0!=5 and T1!=5 and T2!=5 and T3!=5 and T4==4 and T5!=5 and T6!=5 and T7!=5 and T8!=5 and T9!=5:
                                                         Number_Row6="4"
                                                         
-                                                    elif T0!=4 and T1!=4 and T2!=4 and T3!=4 and T4!=4 and T5==4 and T6!=4 and T7!=4 and T8!=4 and T9!=4:                                                    
+                                                    elif T0!=5 and T1!=5 and T2!=5 and T3!=5 and T4!=5 and T5==4 and T6!=5 and T7!=5 and T8!=5 and T9!=5:                                                    
                                                         Number_Row6="5"
                                                            
-                                                    elif T0!=4 and T1!=4 and T2!=4 and T3!=4 and T4!=4 and T5!=4 and T6==4 and T7!=4 and T8!=4 and T9!=4:
+                                                    elif T0!=5 and T1!=5 and T2!=5 and T3!=5 and T4!=5 and T5!=5 and T6==4 and T7!=5 and T8!=5 and T9!=5:
                                                         Number_Row6="6"
 
-                                                    elif T0!=4 and T1!=4 and T2!=4 and T3!=4 and T4!=4 and T5!=4 and T6!=4 and T7==4 and T8!=4 and T9!=4:                              
+                                                    elif T0!=5 and T1!=5 and T2!=5 and T3!=5 and T4!=5 and T5!=5 and T6!=5 and T7==4 and T8!=5 and T9!=5:                              
                                                         Number_Row6="7"
 
-                                                    elif T0!=4 and T1!=4 and T2!=4 and T3!=4 and T4!=4 and T5!=4 and T6!=4 and T7!=4 and T8==4 and T9!=4:
+                                                    elif T0!=5 and T1!=5 and T2!=5 and T3!=5 and T4!=5 and T5!=5 and T6!=5 and T7!=5 and T8==4 and T9!=5:
                                                         Number_Row6="8"
 
-                                                    elif T0!=4 and T1!=4 and T2!=4 and T3!=4 and T4!=4 and T5!=4 and T6!=4 and T7!=4 and T8!=4 and T9==4:
+                                                    elif T0!=5 and T1!=5 and T2!=5 and T3!=5 and T4!=5 and T5!=5 and T6!=5 and T7!=5 and T8!=5 and T9==4:
                                                         Number_Row6="9"
                                                     
 
