@@ -305,34 +305,34 @@ class compression:
                                                     
                                                             
                                                             
-                                                    if T0==0:
+                                                    if T0==4 and T1!=5 and T2!=4 and T3!=4 and T4!=4 and T5!=4 and T6!=4 and T7!=4 and T8!=4 and T9!=4:
                                                         Number_Row6="0"
                                                         
-                                                    elif T1==0:
+                                                    elif T0!=4 and T1==4 and T2!=4 and T3!=4 and T4!=4 and T5!=4 and T6!=4 and T7!=4 and T8!=4 and T9!=4:
                                                         Number_Row6="1"
                                                 
-                                                    elif T2==0:
+                                                    elif T0!=4 and T1!=4 and T2==4 and T3!=4 and T4!=4 and T5!=4 and T6!=4 and T7!=4 and T8!=4 and T9!=4 :
                                                         Number_Row6="2"
                                                 
-                                                    elif T3==0:
+                                                    elif T0!=4 and T1!=4 and T2!=4 and T3==4 and T4!=4 and T5!=4 and T6!=4 and T7!=4 and T8!=4 and T9!=4: 
                                                         Number_Row6="3"
                                                        
-                                                    elif T4==0:
+                                                    elif T0!=4 and T1!=4 and T2!=4 and T3!=4 and T4==4 and T5!=4 and T6!=4 and T7!=4 and T8!=4 and T9!=4:
                                                         Number_Row6="4"
                                                         
-                                                    elif T5==0:
+                                                    elif T0!=4 and T1!=4 and T2!=4 and T3!=4 and T4!=4 and T5==4 and T6!=4 and T7!=4 and T8!=4 and T9!=4:                                                    
                                                         Number_Row6="5"
                                                            
-                                                    elif T6==0:
+                                                    elif T0!=4 and T1!=4 and T2!=4 and T3!=4 and T4!=4 and T5!=4 and T6==4 and T7!=4 and T8!=4 and T9!=4:
                                                         Number_Row6="6"
 
-                                                    elif T7==0:
+                                                    elif T0!=4 and T1!=4 and T2!=4 and T3!=4 and T4!=4 and T5!=4 and T6!=4 and T7==4 and T8!=4 and T9!=4:                              
                                                         Number_Row6="7"
 
-                                                    elif T8==0:
+                                                    elif T0!=4 and T1!=4 and T2!=4 and T3!=4 and T4!=4 and T5!=4 and T6!=4 and T7!=4 and T8==4 and T9!=4:
                                                         Number_Row6="8"
 
-                                                    elif T9==0:
+                                                    elif T0!=4 and T1!=4 and T2!=4 and T3!=4 and T4!=4 and T5!=4 and T6!=4 and T7!=4 and T8!=4 and T9==4:
                                                         Number_Row6="9"
                                                     
 
@@ -340,7 +340,8 @@ class compression:
 
                                                             Number_Row6=Number_Row2
 
-                                                    
+                                                   
+                                                   
                         
                                                     T1=0
                                                     T2=0
@@ -351,8 +352,10 @@ class compression:
                                                     T7=0
                                                     T8=0
                                                     T9=0
+                                                   
                                                           
                                                     Number_Row1=Number_Row1+Number_Row6
+                                                    
                                                     #print(Number_Row6)
                                                     #Number_Row14=Number_Row14+bin(ei)[2:]#where information
                                                 
@@ -401,6 +404,7 @@ class compression:
                                                             
                                                     Number_Row6=Number_Row2
                                                     Number_Row1=Number_Row1+Number_Row6
+                                                    
                                                    
 
                                         
