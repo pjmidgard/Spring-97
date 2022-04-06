@@ -311,7 +311,7 @@ class compression:
                                                     elif T0!=4 and T1==4 and T2!=4 and T3!=4 and T4!=4 and T5!=4 and T6!=4 and T7!=4 and T8!=4 and T9!=4:
                                                         Number_Row6="1"
                                                 
-                                                    elif T0!=4 and T1!=4 and T2==4 and T3!=4 and T4!=4 and T5!=4 and T6!=4 and T7!=4 and T8!=4 and T9!=4 :
+                                                    elif T0!=4 and T1!=4 and T2==4 and T3!=4 and T4!=4 and T5!=4 and T6!=4 and T7!=4 and T8!=4 and T9!=4:
                                                         Number_Row6="2"
                                                 
                                                     elif T0!=4 and T1!=4 and T2!=4 and T3==4 and T4!=4 and T5!=4 and T6!=4 and T7!=4 and T8!=4 and T9!=4: 
