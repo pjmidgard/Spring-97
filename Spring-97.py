@@ -305,145 +305,148 @@ class compression:
                                                    
                                             
                                                     
-                                            elif Number_Row2[0:2]==Number_Row_Count_str and T11==0 and T12==3:
+                                            elif Number_Row2[0:2]==Number_Row_Count_str and T11==0:
                                                     
                                                     if Number_Row2[0:2]==Number_Row_Count_str:
                                                             
                                                             
                                                                 
-                                                            if T0!=1 and T1==0 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1 and Number_Row8[0:1]==Number_Row_Count_str[1:2]:
+                                                            if T0!=1 and T1==0 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1 and Number_Row6=="1" and Number_Row8[0:1]==Number_Row_Count_str[1:2]:
                                                                 Number_Row6="1"
 
                                                                                                                        
-                                                            elif T0!=1 and T1!=1 and T2==0 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1 and Number_Row8[0:1]==Number_Row_Count_str[1:2]:
+                                                            elif T0!=1 and T1!=1 and T2==0 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1 and Number_Row6=="2" and Number_Row8[0:1]==Number_Row_Count_str[1:2]:
                                                                 Number_Row6="2"
                                                                 
                                                         
-                                                            elif T0!=0 and T1!=1 and T2!=1 and T3==0 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1 and  Number_Row8[0:1]==Number_Row_Count_str[1:2]:                                     
+                                                            elif T0!=0 and T1!=1 and T2!=1 and T3==0 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1 and Number_Row6=="3" and Number_Row8[0:1]==Number_Row_Count_str[1:2]:                                     
                                                                 Number_Row6="3"
                                                                
-                                                            elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0==0 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1 and Number_Row8[0:1]==Number_Row_Count_str[1:2]: 
+                                                            elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0==0 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1 and Number_Row6=="4" and Number_Row8[0:1]==Number_Row_Count_str[1:2]: 
                                                                 Number_Row6="4"
                                                                 
-                                                            elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1==0 and T6!=1 and T7!=1 and T8!=1 and T9!=1 and  Number_Row8[0:1]==Number_Row_Count_str[1:2]:                                             
+                                                            elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1==0 and T6!=1 and T7!=1 and T8!=1 and T9!=1 and Number_Row6=="5" and Number_Row8[0:1]==Number_Row_Count_str[1:2]:                                             
                                                                 Number_Row6="5"
                                                                    
-                                                            elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6==0 and T7!=1 and T8!=1 and T9!=1 and Number_Row8[0:1]==Number_Row_Count_str[1:2]:
-                                                                Number_Row6="6"
+                                                            elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6==0 and T7!=1 and T8!=1 and T9!=1 and Number_Row6=="6" and Number_Row8[0:1]==Number_Row_Count_str[1:2]:
+                                                                Number_Row6=="6"
 
-                                                            elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7==0 and T8!=1 and T9!=1 and  Number_Row8[0:1]==Number_Row_Count_str[1:2]:                        
+                                                            elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7==0 and T8!=1 and T9!=1 and Number_Row6=="7" and Number_Row8[0:1]==Number_Row_Count_str[1:2]:                        
                                                                 Number_Row6="7"
 
-                                                            elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8==0 and T9!=1 and Number_Row8[0:1]==Number_Row_Count_str[1:2]:
+                                                            elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8==0 and T9!=1 and Number_Row6=="8" and Number_Row8[0:1]==Number_Row_Count_str[1:2]:
                                                                 Number_Row6="8"
 
-                                                            elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9==0 and Number_Row8[0:1]==Number_Row_Count_str[1:2]:
+                                                            elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9==0 and Number_Row6=="9" and Number_Row8[0:1]==Number_Row_Count_str[1:2]:
                                                                 Number_Row6="9"
                                                             
 
 
                                                     else:
-                                                            Number_Row6=Number_Row2
+                                                           
                                                             
                                                          
                                                
-                                                    T11=1
+                                                        T11=1
                                                     
                                                         
                                                         
                                                     #print(T12)
-                                                    T12=0
-                                                    T12=T12+1
-                                                    T10=10+1
-                                                    if T10==10001:
-                                                            T10=0
+                                                        T12=0
+                                                        T12=T12+1
+                                                        T10=10+1
+                                                        if T10==10001:
+                                                                T10=0
+                                                        
+                                                        
+                                                        
+                                                        
+                                                              
+                                                        Number_Row1=Number_Row1+Number_Row6
+    
+                                                        if Number_Row6[0:1]=="0":
+                                                                T0=T0+1
+                                                        if Number_Row6[0:1]=="1":
+                                                                T1=T1+1
+                                                        if Number_Row6[0:1]=="2":
+                                                                T2=T2+1
+    
+                                                        if Number_Row6[0:1]=="3":
+                                                                T3=T3+1
+    
+                                                        if Number_Row6[0:1]=="4":
+                                                                T4=T4+1
+    
+                                                        if Number_Row6[0:1]=="5":
+                                                                T5=T5+1
+    
+                                                        if Number_Row6[0:1]=="6":
+                                                                T6=T6+1      
+                                                        if Number_Row6[0:1]=="7":
+                                                                T7=T7+1
+    
+                                                        if Number_Row6[0:1]=="8":
+                                                                T8=T8+1
+    
+                                                        if Number_Row6[0:1]=="9":
+                                                                T9=T9+1
+                                                        
+                                                        #print(Number_Row6)
+                                                        #Number_Row14=Number_Row14+bin(ei)[2:]#where information
                                                     
-                                                    
-                                                    
-                                                    
-                                                          
-                                                    Number_Row1=Number_Row1+Number_Row6
-
-                                                    if Number_Row6[0:1]=="0":
-                                                            T0=T0+1
-                                                    if Number_Row6[0:1]=="1":
-                                                            T1=T1+1
-                                                    if Number_Row6[0:1]=="2":
-                                                            T2=T2+1
-
-                                                    if Number_Row6[0:1]=="3":
-                                                            T3=T3+1
-
-                                                    if Number_Row6[0:1]=="4":
-                                                            T4=T4+1
-
-                                                    if Number_Row6[0:1]=="5":
-                                                            T5=T5+1
-
-                                                    if Number_Row6[0:1]=="6":
-                                                            T6=T6+1      
-                                                    if Number_Row6[0:1]=="7":
-                                                            T7=T7+1
-
-                                                    if Number_Row6[0:1]=="8":
-                                                            T8=T8+1
-
-                                                    if Number_Row6[0:1]=="9":
-                                                            T9=T9+1
-                                                    
-                                                    #print(Number_Row6)
-                                                    #Number_Row14=Number_Row14+bin(ei)[2:]#where information
                                                 
-                                            
-                                            
+                                                
                                             else:
-                                                    er=ei%20
-                                                    T12=T12+1
-                                                    
-                                                    if er==0:
-                                                            T0=0
-                                                            T1=0
-                                                            T2=0
-                                                            T3=0
-                                                            T4=0
-                                                            T5=0
-                                                            T6=0
-                                                            T7=0
-                                                            T8=0
-                                                            T9=0
-                                                            T11=0
-                                                            T12=0
-                                                          
-                                                            
-                                                    if Number_Row2[0:1]=="0":
-                                                            T0=T0+1
-                                                    if Number_Row2[0:1]=="1":
-                                                            T1=T1+1
-                                                    if Number_Row2[0:1]=="2":
-                                                            T2=T2+1
-
-                                                    if Number_Row2[0:1]=="3":
-                                                            T3=T3+1
-
-                                                    if Number_Row2[0:1]=="4":
-                                                            T4=T4+1
-
-                                                    if Number_Row2[0:1]=="5":
-                                                            T5=T5+1
-
-                                                    if Number_Row2[0:1]=="6":
-                                                            T6=T6+1      
-                                                    if Number_Row2[0:1]=="7":
-                                                            T7=T7+1
-
-                                                    if Number_Row2[0:1]=="8":
-                                                            T8=T8+1
-
-                                                    if Number_Row2[0:1]=="9":
-                                                            T9=T9+1
-                                                            
-                                                    Number_Row6=Number_Row2
-                                                    Number_Row1=Number_Row1+Number_Row6
+                                                        
+                                                       
+                                                           
+                                                        er=ei%20
+                                                        T12=T12+1
+                                                        
+                                                        if er==0:
+                                                                T0=0
+                                                                T1=0
+                                                                T2=0
+                                                                T3=0
+                                                                T4=0
+                                                                T5=0
+                                                                T6=0
+                                                                T7=0
+                                                                T8=0
+                                                                T9=0
+                                                                T11=0
+                                                                T12=0
+                                                              
+                                                                
+                                                        if Number_Row2[0:1]=="0":
+                                                                T0=T0+1
+                                                        if Number_Row2[0:1]=="1":
+                                                                T1=T1+1
+                                                        if Number_Row2[0:1]=="2":
+                                                                T2=T2+1
+    
+                                                        if Number_Row2[0:1]=="3":
+                                                                T3=T3+1
+    
+                                                        if Number_Row2[0:1]=="4":
+                                                                T4=T4+1
+    
+                                                        if Number_Row2[0:1]=="5":
+                                                                T5=T5+1
+    
+                                                        if Number_Row2[0:1]=="6":
+                                                                T6=T6+1      
+                                                        if Number_Row2[0:1]=="7":
+                                                                T7=T7+1
+    
+                                                        if Number_Row2[0:1]=="8":
+                                                                T8=T8+1
+    
+                                                        if Number_Row2[0:1]=="9":
+                                                                T9=T9+1
+                                                                
+                                                        Number_Row6=Number_Row2
+                                                        Number_Row1=Number_Row1+Number_Row6
                                                     
                                                    
 
@@ -483,8 +486,8 @@ class compression:
                                     lenfS=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                    
                                 
-                                    print(lenfS) 
-                                    if lenfS==Deep3:
+                                    #print(lenfS) 
+                                    if lenf6==lenfS:
                                           Deep3=lenfS
                                             
                                     if compress_or_not_compress==2 and Circle_times2==0:
