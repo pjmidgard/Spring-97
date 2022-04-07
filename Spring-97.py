@@ -304,10 +304,9 @@ class compression:
                                                    
                                             
                                                     
-                                            elif Number_Row2[0:2]==Number_Row_Count_str and T11==0:
+                                            elif Number_Row2[0:2]==Number_Row_Count_str and T12==3:
                                                     
 
-                                                    
                                                     if T0==0 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1 and T10>=0 and T10<=1000:
                                                         Number_Row6="0"
                                                         
@@ -339,6 +338,7 @@ class compression:
                                                         Number_Row6="9"
                                                     
 
+
                                                     else:
 
                                                             Number_Row6=Number_Row2
@@ -349,6 +349,10 @@ class compression:
                                                  
                                                     
                                                     T11=1
+                                                    #print(T12)
+                                                    T12=0
+                                                    T12=T12+1
+                                                    
                                                     
                                                     
                                                     
@@ -403,36 +407,8 @@ class compression:
                                                             T8=0
                                                             T9=0
                                                             T11=0
-                                                            
-                                                            if T0==1 and Number_Row6=="0" or T0==0:
-                                                               T14=0     
-                                                                    
-                                                            elif T1==1 and Number_Row6=="1" or T1==0:
-                                                                T14=0
-
-                                                            elif T2==1 and Number_Row6=="2" or T2==0:
-                                                                T14=0
-
-                                                            elif T3==1 and Number_Row6=="3" or T3==0:
-                                                                T14=0
-                                                            elif T4==1 and Number_Row6=="4" or T4==0:
-                                                                T14=0
-
-                                                            elif T5==1 and Number_Row6=="5" or T5==0: 
-                                                                T14=0
-
-                                                            elif T6==1 and Number_Row6=="6" or T6==0: 
-                                                                T14=0
-
-                                                            elif T7==1 and Number_Row6=="7" or T7==0:
-                                                                T14=0
-
-                                                            elif T8==1 and Number_Row6=="8" or T8==0:
-                                                                T14=0
-                                                            elif T9==1 and Number_Row6=="9" or T9==0:
-                                                                T14=0        
-                                                            else:
-                                                                compress_or_not_compress=2
+                                                            T12=0
+                                                          
                                                             
                                                     if Number_Row2[0:1]=="0":
                                                             T0=T0+1
