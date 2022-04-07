@@ -321,10 +321,10 @@ class compression:
                                                     elif T0!=0 and T1!=1 and T2!=1 and T3==0 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1 and T10>=3000 and T10<=4000:
                                                         Number_Row6="3"
                                                        
-                                                    elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0==0 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1 and T10>=0000 and T10<=5000:
+                                                    elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0==0 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1 and T10>=4000 and T10<=5000:
                                                         Number_Row6="0"
                                                         
-                                                    elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1==0 and T6!=1 and T7!=1 and T8!=1 and T9!=1 and T10>=1000 and T10<=6000:                                                  
+                                                    elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1==0 and T6!=1 and T7!=1 and T8!=1 and T9!=1 and T10>=5000 and T10<=6000:                                                  
                                                         Number_Row6="1"
                                                            
                                                     elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6==0 and T7!=1 and T8!=1 and T9!=1 and T10>=6000 and T10<=7000:
