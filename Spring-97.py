@@ -340,8 +340,39 @@ class compression:
 
 
                                                     else:
-
                                                             Number_Row6=Number_Row2
+                                                            if  T10>=0 and T10<=1000 and Number_Row6=="0": 
+                                                                    compress_or_not_compress=2
+
+                                                            if  T10>=1000 and T10<=2000 and Number_Row6=="1": 
+                                                                    compress_or_not_compress=2
+
+                                                            if  T10>=2000 and T10<=3000 and Number_Row6=="2": 
+                                                                    compress_or_not_compress=2
+
+                                                            if  T10>=3000 and T10<=4000 and Number_Row6=="3": 
+                                                                    compress_or_not_compress=2
+
+
+                                                            if  T10>=4000 and T10<=5000 and Number_Row6=="4": 
+                                                                    compress_or_not_compress=2
+
+                                                            if  T10>=5000 and T10<=6000 and Number_Row6=="5": 
+                                                                    compress_or_not_compress=2
+
+                                                            if  T10>=6000 and T10<=7000 and Number_Row6=="6": 
+                                                                    compress_or_not_compress=2
+
+                                                            if  T10>=7000 and T10<=8000 and Number_Row6=="7": 
+                                                                    compress_or_not_compress=2
+
+                                                            if  T10>=8000 and T10<=9000 and Number_Row6=="8": 
+                                                                    compress_or_not_compress=2
+
+                                                            if  T10>=9000 and T10<=10000 and Number_Row6=="9": 
+                                                                    compress_or_not_compress=2
+                                                           
+                                                           
 
                                                    
                                                    
@@ -352,6 +383,9 @@ class compression:
                                                     #print(T12)
                                                     T12=0
                                                     T12=T12+1
+                                                    T10=10+1
+                                                    if T10==10001:
+                                                            T10=0
                                                     
                                                     
                                                     
@@ -478,7 +512,7 @@ class compression:
                                     lenfS=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                    
                                 
-                                    print(lenfS) 
+                                    #print(lenfS) 
                                     if lenf6==lenfS:
                                             Deep3=lenfS
                                             
