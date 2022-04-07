@@ -274,6 +274,9 @@ class compression:
                                     T7=0
                                     T8=0
                                     T9=0
+                                    T10=0
+                                    T11=0
+                                    T12=0
                                     
                             
                                     
@@ -300,39 +303,40 @@ class compression:
                                                    
                                             
                                                     
-                                            elif Number_Row2[0:2]==Number_Row_Count_str:
+                                            elif Number_Row2[0:2]==Number_Row_Count_str and T11==0:
+                                                    
 
                                                     
                                                             
                                                             
-                                                    if T0==4 and T1!=5 and T2!=5 and T3!=5 and T4!=5 and T5!=5 and T6!=5 and T7!=5 and T8!=5 and T9!=5:
+                                                    if T0==4 and T1!=5 and T2!=5 and T3!=5 and T4!=5 and T5!=5 and T6!=5 and T7!=5 and T8!=5 and T9!=5 and T10>=0 and T10<=1000:
                                                         Number_Row6="0"
                                                         
-                                                    elif T0!=5 and T1==4 and T2!=5 and T3!=5 and T4!=5 and T5!=5 and T6!=5 and T7!=5 and T8!=5 and T9!=5:
+                                                    elif T0!=5 and T1==4 and T2!=5 and T3!=5 and T4!=5 and T5!=5 and T6!=5 and T7!=5 and T8!=5 and T9!=5 and T10>=1000 and T10<=2000:
                                                         Number_Row6="1"
                                                 
-                                                    elif T0!=5 and T1!=5 and T2==4 and T3!=5 and T4!=5 and T5!=5 and T6!=5 and T7!=5 and T8!=5 and T9!=5:
+                                                    elif T0!=5 and T1!=5 and T2==4 and T3!=5 and T4!=5 and T5!=5 and T6!=5 and T7!=5 and T8!=5 and T9!=5 and T10>=2000 and T10<=3000:
                                                         Number_Row6="2"
                                                 
-                                                    elif T0!=4 and T1!=5 and T2!=5 and T3==4 and T4!=5 and T5!=5 and T6!=5 and T7!=5 and T8!=5 and T9!=5: 
+                                                    elif T0!=4 and T1!=5 and T2!=5 and T3==4 and T4!=5 and T5!=5 and T6!=5 and T7!=5 and T8!=5 and T9!=5 and T10>=3000 and T10<=4000:
                                                         Number_Row6="3"
                                                        
-                                                    elif T0!=5 and T1!=5 and T2!=5 and T3!=5 and T4==4 and T5!=5 and T6!=5 and T7!=5 and T8!=5 and T9!=5:
+                                                    elif T0!=5 and T1!=5 and T2!=5 and T3!=5 and T4==4 and T5!=5 and T6!=5 and T7!=5 and T8!=5 and T9!=5 and T10>=4000 and T10<=5000:
                                                         Number_Row6="4"
                                                         
-                                                    elif T0!=5 and T1!=5 and T2!=5 and T3!=5 and T4!=5 and T5==4 and T6!=5 and T7!=5 and T8!=5 and T9!=5:                                                    
+                                                    elif T0!=5 and T1!=5 and T2!=5 and T3!=5 and T4!=5 and T5==4 and T6!=5 and T7!=5 and T8!=5 and T9!=5 and T10>=5000 and T10<=6000:                                                  
                                                         Number_Row6="5"
                                                            
-                                                    elif T0!=5 and T1!=5 and T2!=5 and T3!=5 and T4!=5 and T5!=5 and T6==4 and T7!=5 and T8!=5 and T9!=5:
+                                                    elif T0!=5 and T1!=5 and T2!=5 and T3!=5 and T4!=5 and T5!=5 and T6==4 and T7!=5 and T8!=5 and T9!=5 and T10>=6000 and T10<=7000:
                                                         Number_Row6="6"
 
-                                                    elif T0!=5 and T1!=5 and T2!=5 and T3!=5 and T4!=5 and T5!=5 and T6!=5 and T7==4 and T8!=5 and T9!=5:                              
+                                                    elif T0!=5 and T1!=5 and T2!=5 and T3!=5 and T4!=5 and T5!=5 and T6!=5 and T7==4 and T8!=5 and T9!=5 and T10>=7000 and T10<=8000:                            
                                                         Number_Row6="7"
 
-                                                    elif T0!=5 and T1!=5 and T2!=5 and T3!=5 and T4!=5 and T5!=5 and T6!=5 and T7!=5 and T8==4 and T9!=5:
+                                                    elif T0!=5 and T1!=5 and T2!=5 and T3!=5 and T4!=5 and T5!=5 and T6!=5 and T7!=5 and T8==4 and T9!=5 and T10>=8000 and T10<=9000:
                                                         Number_Row6="8"
 
-                                                    elif T0!=5 and T1!=5 and T2!=5 and T3!=5 and T4!=5 and T5!=5 and T6!=5 and T7!=5 and T8!=5 and T9==4:
+                                                    elif T0!=5 and T1!=5 and T2!=5 and T3!=5 and T4!=5 and T5!=5 and T6!=5 and T7!=5 and T8!=5 and T9==4 and T10>=9000 and T10<=10000:
                                                         Number_Row6="9"
                                                     
 
@@ -352,7 +356,14 @@ class compression:
                                                     T7=0
                                                     T8=0
                                                     T9=0
-                                                   
+                                                    T10=T10+1
+                                                    T11=1
+                                                    
+                                                    
+                                                    T12=0
+                                                    if T10==10001:
+                                                            T10=0
+                                                    
                                                           
                                                     Number_Row1=Number_Row1+Number_Row6
                                                     
@@ -363,6 +374,7 @@ class compression:
                                             
                                             else:
                                                     er=ei%100
+                                                    T12=T12+1
                                                     if er==0:
                                                             T1=0
                                                             T2=0
@@ -373,6 +385,7 @@ class compression:
                                                             T7=0
                                                             T8=0
                                                             T9=0
+                                                            T11=0
                                                             
                                                             
                                                     if Number_Row2[0:1]=="0":
@@ -443,7 +456,7 @@ class compression:
                                     lenfS=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                    
                                 
-                                    #print(lenfS) 
+                                    print(lenfS) 
                                     if lenf6==lenfS:
                                             Deep3=lenfS
                                             
