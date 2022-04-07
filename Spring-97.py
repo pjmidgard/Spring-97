@@ -454,7 +454,7 @@ class compression:
                                                     
                                             ei=ei+2
                                             
-                                            Number_Row_Count=Number_Row_Count+1
+                                            Number_Row_Count=Number_Row_Count+10
                                             
                                             if Number_Row_Count==100:
                                                             Number_Row_Count=10
