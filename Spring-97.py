@@ -363,6 +363,8 @@ class compression:
                                                         
                                                               
                                                         Number_Row1=Number_Row1+Number_Row6
+                                                        compress_or_not_compress=2
+                                                        
     
                                                         if Number_Row6[0:1]=="0":
                                                                 T0=T0+1
@@ -486,7 +488,7 @@ class compression:
                                     lenfS=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                    
                                 
-                                    #print(lenfS) 
+                                    print(lenfS) 
                                     if lenf6==lenfS:
                                           Deep3=lenfS
                                             
