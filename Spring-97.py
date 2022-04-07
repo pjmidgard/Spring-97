@@ -343,54 +343,45 @@ class compression:
 
 
                                                     else:
+                                                         Number_Row1=Number_Row1+Number_Row6
+                                                         compress_or_not_compress=2
                                                            
                                                             
                                                          
                                                
-                                                        T11=1
+                                                    T11=1
                                                     
                                                         
                                                         
                                                     #print(T12)
-                                                        T12=0
-                                                        T12=T12+1
-                                                        T10=10+1
-                                                        if T10==10001:
-                                                                T10=0
-                                                        
-                                                        
-                                                        
-                                                        
-                                                              
-                                                        Number_Row1=Number_Row1+Number_Row6
-                                                        compress_or_not_compress=2
-                                                        
+                                                    T12=0
+                                                    T12=T12+1
     
-                                                        if Number_Row6[0:1]=="0":
+                                                    if Number_Row6[0:1]=="0":
                                                                 T0=T0+1
-                                                        if Number_Row6[0:1]=="1":
+                                                    if Number_Row6[0:1]=="1":
                                                                 T1=T1+1
-                                                        if Number_Row6[0:1]=="2":
+                                                    if Number_Row6[0:1]=="2":
                                                                 T2=T2+1
     
-                                                        if Number_Row6[0:1]=="3":
+                                                    if Number_Row6[0:1]=="3":
                                                                 T3=T3+1
     
-                                                        if Number_Row6[0:1]=="4":
+                                                    if Number_Row6[0:1]=="4":
                                                                 T4=T4+1
     
-                                                        if Number_Row6[0:1]=="5":
+                                                    if Number_Row6[0:1]=="5":
                                                                 T5=T5+1
     
-                                                        if Number_Row6[0:1]=="6":
+                                                    if Number_Row6[0:1]=="6":
                                                                 T6=T6+1      
-                                                        if Number_Row6[0:1]=="7":
+                                                    if Number_Row6[0:1]=="7":
                                                                 T7=T7+1
     
-                                                        if Number_Row6[0:1]=="8":
+                                                    if Number_Row6[0:1]=="8":
                                                                 T8=T8+1
     
-                                                        if Number_Row6[0:1]=="9":
+                                                    if Number_Row6[0:1]=="9":
                                                                 T9=T9+1
                                                         
                                                         #print(Number_Row6)
@@ -488,7 +479,7 @@ class compression:
                                     lenfS=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                    
                                 
-                                    #print(lenfS) 
+                                   # print(lenfS) 
                                     if lenf6==lenfS:
                                           Deep3=lenfS
                                             
