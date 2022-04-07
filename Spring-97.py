@@ -310,34 +310,34 @@ class compression:
                                                     
                                                             
                                                             
-                                                    if T0==0 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1 and T10>=0 and T10<=1000:
+                                                    if T0==0 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1:
                                                         Number_Row6="0"
                                                         
-                                                    elif T0!=1 and T1==0 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1 and T10>=1000 and T10<=2000:
+                                                    elif T0!=1 and T1==0 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1:
                                                         Number_Row6="1"
                                                 
-                                                    elif T0!=1 and T1!=1 and T2==0 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1 and T10>=2000 and T10<=3000:
+                                                    elif T0!=1 and T1!=1 and T2==0 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1:
                                                         Number_Row6="2"
                                                 
-                                                    elif T0!=0 and T1!=1 and T2!=1 and T3==0 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1 and T10>=3000 and T10<=4000:
+                                                    elif T0!=0 and T1!=1 and T2!=1 and T3==0 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1:
                                                         Number_Row6="3"
                                                        
-                                                    elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0==0 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1 and T10>=4000 and T10<=5000:
+                                                    elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0==0 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1:
                                                         Number_Row6="0"
                                                         
-                                                    elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1==0 and T6!=1 and T7!=1 and T8!=1 and T9!=1 and T10>=5000 and T10<=6000:                                                  
+                                                    elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1==0 and T6!=1 and T7!=1 and T8!=1 and T9!=1:                                                  
                                                         Number_Row6="1"
                                                            
-                                                    elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6==0 and T7!=1 and T8!=1 and T9!=1 and T10>=6000 and T10<=7000:
+                                                    elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6==0 and T7!=1 and T8!=1 and T9!=1:
                                                         Number_Row6="6"
 
-                                                    elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7==0 and T8!=1 and T9!=1 and T10>=7000 and T10<=8000:                            
+                                                    elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7==0 and T8!=1 and T9!=1:                            
                                                         Number_Row6="7"
 
-                                                    elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8==0 and T9!=1 and T10>=8000 and T10<=9000:
+                                                    elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8==0 and T9!=1:
                                                         Number_Row6="8"
 
-                                                    elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9==0 and T10>=9000 and T10<=10000:
+                                                    elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9==0:
                                                         Number_Row6="9"
                                                     
 
@@ -349,13 +349,10 @@ class compression:
                                                    
                         
                                                  
-                                                    T10=T10+1
+                                                    
                                                     T11=1
                                                     
                                                     
-                                                    T12=0
-                                                    if T10==10001:
-                                                            T10=0
                                                     
                                                           
                                                     Number_Row1=Number_Row1+Number_Row6
@@ -408,28 +405,33 @@ class compression:
                                                             T8=0
                                                             T9=0
                                                             T11=0
-                                                            if T0==0 or T0==1:
+                                                            if T0==1 and Number_Row6=="0" or T0==0:
                                                                T14=0     
                                                                     
-                                                            elif T1==0 or T1==1:
+                                                            elif T1==1 and Number_Row6=="1" or T1==0:
                                                                 T14=0
 
-                                                            elif T2==0 or T2==1:
+                                                            elif T2==1 and Number_Row6=="2" or T2==0:
                                                                 T14=0
 
-                                                            elif T3==0 or T4==1:
+                                                            elif T3==1 and Number_Row6=="3" or T3==0:
                                                                 T14=0
-                                                            elif T5==0 or T6==1:
-                                                                T14=0
-
-                                                            elif T6==0 or T7==1:
+                                                            elif T4==1 and Number_Row6=="4" or T4==0:
                                                                 T14=0
 
-                                                            elif T8==0 or T8==1:
+                                                            elif T5==1 and Number_Row6=="5" or T5==0: 
                                                                 T14=0
 
-                                                            elif T9==0 or T9==1:
+                                                            elif T6==1 and Number_Row6=="6" or T6==0: 
                                                                 T14=0
+
+                                                            elif T7==1 and Number_Row6=="7" or T7==0:
+                                                                T14=0
+
+                                                            elif T8==1 and Number_Row6=="8" or T8==0:
+                                                                T14=0
+                                                            elif T9==1 and Number_Row6=="9" or T9==0:
+                                                                T14=0        
                                                             else:
                                                                 compress_or_not_compress=2
                                                             
