@@ -343,13 +343,15 @@ class compression:
 
 
                                                     else:
-                                                         Number_Row1=Number_Row1+Number_Row6
+ 
                                                          compress_or_not_compress=2
                                                            
                                                             
                                                          
                                                
                                                     T11=1
+                                                    Number_Row1=Number_Row1+Number_Row6
+                                                                                                                                    
                                                     
                                                         
                                                         
