@@ -354,9 +354,9 @@ class compression:
                                                     #print(T12)
                                                         T12=0
                                                         T12=T12+1
-                                                        T10=10+1
-                                                        if T10==10001:
-                                                                T10=0
+                                                        
+                                                      
+                                                     
                                                         
                                                         
                                                         
