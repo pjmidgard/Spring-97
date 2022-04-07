@@ -277,6 +277,7 @@ class compression:
                                     T10=0
                                     T11=0
                                     T12=0
+                                    T14=0
                                     
                             
                                     
@@ -347,15 +348,7 @@ class compression:
                                                    
                                                    
                         
-                                                    T1=0
-                                                    T2=0
-                                                    T3=0
-                                                    T4=0
-                                                    T5=0
-                                                    T6=0
-                                                    T7=0
-                                                    T8=0
-                                                    T9=0
+                                                 
                                                     T10=T10+1
                                                     T11=1
                                                     
@@ -366,6 +359,33 @@ class compression:
                                                     
                                                           
                                                     Number_Row1=Number_Row1+Number_Row6
+
+                                                    if Number_Row6[0:1]=="0":
+                                                            T0=T0+1
+                                                    if Number_Row6[0:1]=="1":
+                                                            T1=T1+1
+                                                    if Number_Row6[0:1]=="2":
+                                                            T2=T2+1
+
+                                                    if Number_Row6[0:1]=="3":
+                                                            T3=T3+1
+
+                                                    if Number_Row6[0:1]=="4":
+                                                            T4=T4+1
+
+                                                    if Number_Row6[0:1]=="5":
+                                                            T5=T5+1
+
+                                                    if Number_Row6[0:1]=="6":
+                                                            T6=T6+1      
+                                                    if Number_Row6[0:1]=="7":
+                                                            T7=T7+1
+
+                                                    if Number_Row6[0:1]=="8":
+                                                            T8=T8+1
+
+                                                    if Number_Row6[0:1]=="9":
+                                                            T9=T9+1
                                                     
                                                     #print(Number_Row6)
                                                     #Number_Row14=Number_Row14+bin(ei)[2:]#where information
@@ -375,7 +395,9 @@ class compression:
                                             else:
                                                     er=ei%20
                                                     T12=T12+1
+                                                  
                                                     if er==0:
+                                                            T0=0
                                                             T1=0
                                                             T2=0
                                                             T3=0
@@ -386,7 +408,30 @@ class compression:
                                                             T8=0
                                                             T9=0
                                                             T11=0
-                                                            
+                                                            if T0==0 or T0==1:
+                                                               T14=0     
+                                                                    
+                                                            elif T1==0 or T1==1:
+                                                                T14=0
+
+                                                            elif T2==0 or T2==1:
+                                                                T14=0
+
+                                                            elif T3==0 or T4==1:
+                                                                T14=0
+                                                            elif T5==0 or T6==1:
+                                                                T14=0
+
+                                                            elif T6==0 or T7==1:
+                                                                T14=0
+
+                                                            elif T8==0 or T8==1:
+                                                                T14=0
+
+                                                            elif T9==0 or T9==1:
+                                                                T14=0
+                                                            else:
+                                                                compress_or_not_compress=2
                                                             
                                                     if Number_Row2[0:1]=="0":
                                                             T0=T0+1
@@ -456,7 +501,7 @@ class compression:
                                     lenfS=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                    
                                 
-                                    print(lenfS) 
+                                    #print(lenfS) 
                                     if lenf6==lenfS:
                                             Deep3=lenfS
                                             
