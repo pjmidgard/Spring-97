@@ -390,7 +390,7 @@ class compression:
                                             else:
                                                     er=ei%20
                                                     T12=T12+1
-                                                  
+                                                    
                                                     if er==0:
                                                             T0=0
                                                             T1=0
@@ -403,6 +403,7 @@ class compression:
                                                             T8=0
                                                             T9=0
                                                             T11=0
+                                                            
                                                             if T0==1 and Number_Row6=="0" or T0==0:
                                                                T14=0     
                                                                     
