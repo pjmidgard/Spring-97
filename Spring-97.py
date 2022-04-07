@@ -303,7 +303,7 @@ class compression:
                                                    
                                             
                                                     
-                                            elif Number_Row2[0:2]==Number_Row_Count_str and T11==0:
+                                            elif Number_Row2[0:2]==Number_Row_Count_str:
                                                     
 
                                                     
