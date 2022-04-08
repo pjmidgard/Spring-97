@@ -342,9 +342,12 @@ class compression:
                                                             
 
 
-                                                    else:
+                                                            else:
+                                                               Number_Row6=Number_Row2
+                                                               
+                                                               
  
-                                                         compress_or_not_compress=2
+                                                         
                                                            
                                                             
                                                          
