@@ -9,6 +9,15 @@ name=""
 add_bits=""
 Make_togher=""
 
+memory = str(input("How many memory do have e.g. 4294967296: "))
+x = memory.isnumeric()
+if x==False:    
+        print("Sorry this not whole number")
+        raise SystemExit
+                        
+if x==True:
+        memory=int(memory)
+
 namez = input("c,  compress or e, extract? ")
 
 #@Author Jurijus Pacalovas
@@ -206,7 +215,7 @@ class compression:
                                 lenf2=len(Equal_info_between_of_the_cirlce_of_the_file_2)
                                 #print(lenf2)
                                 if i==1:
-                                    if lenf7>=(2**40)-1:
+                                    if lenf7>(memory):
                                             x2 = time()
                                             x3=x2-x
                                             xs=float(x3)
