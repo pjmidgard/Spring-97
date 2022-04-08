@@ -195,7 +195,17 @@ class compression:
                                 #print(lenf2)
                                 if i==1:
                                     if lenf7>=(2**40)-1:
-                                        raise SystemExit
+                                            x2 = time()
+                                            x3=x2-x
+                                            xs=float(x3)
+                                            return print(x3)
+
+                                    if lenf7==0:
+                                            x2 = time()
+                                            x3=x2-x
+                                            xs=float(x3)
+                                            return print(x3)
+                                        
 
                                 #########################################################################################################################################################
                                 
