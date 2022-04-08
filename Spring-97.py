@@ -3,7 +3,7 @@ import os
 import binascii
 import math
 import os.path
-
+#Author’s Jurijus Pacalovas
 lenf=0
 name=""
 add_bits=""
