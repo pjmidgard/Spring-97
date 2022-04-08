@@ -9,7 +9,7 @@ name=""
 add_bits=""
 Make_togher=""
 
-memory = str(input("How many memory do have e.g. 4294967296: "))
+memory = str(input("How many computer RAM memory do have e.g. 4294967296: "))
 x = memory.isnumeric()
 if x==False:    
         print("Sorry this not whole number")
@@ -23,11 +23,6 @@ namez = input("c,  compress or e, extract? ")
 #@Author Jurijus Pacalovas
 class compression:
 
-
-        
-
-                
-       
         def cryptograpy_compression4(self):
 
                 def Forest_Extract(Number_Row2,Number_Row_Count):
