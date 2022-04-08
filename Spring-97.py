@@ -758,7 +758,7 @@ class compression:
             
                                         if C==1 and T!=0:
                                                         Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[Translate_info_Decimal_2:]
-                                                        #Extract
+                                                        #Extract ###################################################################################################################
                                                         Number_of_the_file = int(Equal_info_between_of_the_cirlce_of_the_file, 2)
                                                             
                                                         
