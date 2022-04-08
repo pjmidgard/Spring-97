@@ -331,7 +331,7 @@ class compression:
                                                             elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6==0 and T7!=1 and T8!=1 and T9!=1:
                                                                 Number_Row6=="6"
 
-                                                            elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7==0 and T8!=1 and T9!=1 and Number_Row2[0:1]=="7":                        
+                                                            elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7==0 and T8!=1 and T9!=1:                        
                                                                 Number_Row6="7"
 
                                                             elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8==0 and T9!=1:
@@ -402,6 +402,48 @@ class compression:
                                                            
                                                         er=ei%15
                                                         T12=T12+1
+                                                        
+                                                        if T12==15:
+                                                            
+                                                            
+
+                                                            if T0!=1 and T1==0 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1:
+                                                                Number_Row6="1"
+
+                                                                                                                       
+                                                            elif T0!=1 and T1!=1 and T2==0 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1:
+                                                                Number_Row6="2"
+                                                                
+                                                        
+                                                            elif T0!=0 and T1!=1 and T2!=1 and T3==0 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1:                                     
+                                                                Number_Row6="3"
+                                                               
+                                                            elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0==0 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1: 
+                                                                Number_Row6="4"
+                                                                
+                                                            elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1==0 and T6!=1 and T7!=1 and T8!=1 and T9!=1:                                             
+                                                                Number_Row6="5"
+                                                                   
+                                                            elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6==0 and T7!=1 and T8!=1 and T9!=1:
+                                                                Number_Row6=="6"
+
+                                                            elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7==0 and T8!=1 and T9!=1:                        
+                                                                Number_Row6="7"
+
+                                                            elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8==0 and T9!=1:
+                                                                Number_Row6="8"
+
+                                                            elif T0!=1 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9==0:
+                                                                Number_Row6="9"
+                                                            
+
+
+                                                            else:
+                                                               Number_Row6="A"
+
+                                                            if Number_Row6!="A" and Number_Row6==Number_Row2:
+                                                                    compress_or_not_compress=2
+                                                               
                                                         
                                                         if er==0:
                                                                 T0=0
@@ -486,7 +528,7 @@ class compression:
                                     lenfS=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                    
                                 
-                                    #print(lenfS) 
+                                    print(lenfS) 
                                     if lenf6==lenfS:
                                           Deep3=lenfS
                                             
