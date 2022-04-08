@@ -309,9 +309,10 @@ class compression:
                                                     
                                                     if Number_Row2[0:2]==Number_Row_Count_str:
                                                             
-                                                            
+                                                            if T0==0 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1:
+                                                                Number_Row6="0"
                                                                 
-                                                            if T0!=1 and T1==0 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1:
+                                                            elif T0!=1 and T1==0 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1:
                                                                 Number_Row6="1"
 
                                                                                                                        
@@ -405,9 +406,10 @@ class compression:
                                                         
                                                         if T12==15:
                                                             
-                                                            
+                                                            if T0==0 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1:
+                                                                Number_Row6="0"
 
-                                                            if T0!=1 and T1==0 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1:
+                                                            elif T0!=1 and T1==0 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1:
                                                                 Number_Row6="1"
 
                                                                                                                        
