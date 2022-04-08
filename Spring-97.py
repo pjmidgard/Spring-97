@@ -118,7 +118,7 @@ class compression:
                     n=0
                     x = time()
 
-                    with open(nameas) as my_file:
+                    with open(name) as my_file:
                             my_file.seek(0, os.SEEK_END) # go to end of file
                             if my_file.tell(): # if current position is truish (i.e != 0)
                                     my_file.seek(0) # rewind the file for later use 
