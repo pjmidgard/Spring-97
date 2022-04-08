@@ -314,16 +314,16 @@ class compression:
                                             Number_Row_Count_str3=str(Number_Row_Count)
                                             Number_Row_Count_str=str(Number_Row_Count)
                                             Number_Row_Count_str2=Number_Row_Count_str[1:2]+Number_Row_Count_str[0:1]
-                                            er_0=ei%1
-                                            er_1=ei%2
-                                            er_2=ei%3
-                                            er_3=ei%4
-                                            er_4=ei%5
-                                            er_5=ei%6
-                                            er_6=ei%7
-                                            er_7=ei%8
-                                            er_8=ei%9
-                                            er_9=ei%10 
+                                            er_0=ei%2
+                                            er_1=ei%3
+                                            er_2=ei%4
+                                            er_3=ei%5
+                                            er_4=ei%6
+                                            er_5=ei%7
+                                            er_6=ei%8
+                                            er_7=ei%9
+                                            er_8=ei%10
+                                            er_9=ei%11
 
 
                                             if ei==0:
