@@ -305,7 +305,7 @@ class compression:
                                                    
                                             
                                                     
-                                            elif Number_Row2[0:2]==Number_Row_Count_str and T11==0 and T12==14:
+                                            elif Number_Row2[0:2]==Number_Row_Count_str and T11==0 and T12==8:
                                                     
                                                     if Number_Row2[0:2]==Number_Row_Count_str:
                                                             
@@ -401,10 +401,10 @@ class compression:
                                                         
                                                        
                                                            
-                                                        er=ei%15
+                                                        er=ei%9
                                                         T12=T12+1
                                                         
-                                                        if T12==15:
+                                                        if T12==9:
                                                             
                                                             if T0==0 and T1!=1 and T2!=1 and T3!=1 and T0!=1 and T1!=1 and T6!=1 and T7!=1 and T8!=1 and T9!=1:
                                                                 Number_Row6="0"
