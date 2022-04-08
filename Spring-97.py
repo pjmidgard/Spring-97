@@ -320,12 +320,6 @@ class compression:
                                                     Number_Row6=Number_Row2
                                                     Number_Row1=Number_Row1+Number_Row6
 
-                                            
-                                               
-
-                                            
-                                                   
-                                            
                                                     
                                             elif Number_Row2[0:2]==Number_Row_Count_str and T11==0 and T12==8:
                                                     
