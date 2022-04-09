@@ -302,7 +302,7 @@ class compression:
                                             if number_predict[0:3]=="011" or number_predict[0:3]=="010":
                                                     number_predict1="10"+number_predict[1:]
                                             elif number_predict[0:1]=="1":
-                                                    number_predict2="11"+number_predict[2:]
+                                                    number_predict2="11"+number_predict[1:]
                                                     
                                                                                 
                                                                                 
