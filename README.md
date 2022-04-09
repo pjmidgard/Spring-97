@@ -1,1 +1,23 @@
-We try to predict numbers from 10-99 plus 10 and save numbers that exist 1 times of the block of the 9 numbers of long 2 numbers. If all numbers exist not 1 times in this block save the same number that we found and all counting make zero. If the number more one exist or zero times or found number this block not compress and if 1 one time this number exist that block will be compress. Numbers go 1-9; 10-99. If our number is 0-14, 1-9 start from zero then it compresses. Numbers go from 0-9. Our number is divide by 2-11 of cardinates. We save number from 0-9, but we have before two numbers. if last number of the block equal zero compress if not equal zero not compress.
+                                    Spin=0
+
+                                    ei=0
+
+                                    while ei<=lenf6:
+                                            number_predict=Equal_info_between_of_the_cirlce_of_the_file2[ei:ei+8]
+                                            
+                                            
+
+                                            if number_predict[0:1]!="1" and Spin==0:
+                                                    Equal_info_between_of_the_cirlce_of_the_file_11=Equal_info_between_of_the_cirlce_of_the_file_11+number_predict
+
+
+                                            else:
+                                                    number_predict1="0"+number_predict[2:8]
+                                                    if number_predict1[0:2]=="01":
+                                                            Spin==1
+                                                            
+                                                            number_predict1="00"+number_predict[2:8]
+                                                                    
+                                                    Equal_info_between_of_the_cirlce_of_the_file_11=Equal_info_between_of_the_cirlce_of_the_file_11+number_predict1
+                                                    
+                                            ei=ei+8
