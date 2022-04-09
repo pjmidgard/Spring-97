@@ -324,7 +324,7 @@ class compression:
   
                                                     else:
                                                             if number_predict[1:3]=="11" or number_predict[1:3]=="10":
-                                                                number_predict1="10"+number_predict
+                                                                number_predict1="10"+number_predict[1:]
                                                                 
                                                             else:
                                                                     number_predict1="0"+number_predict[2:8]
