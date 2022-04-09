@@ -299,7 +299,7 @@ class compression:
                                             number_predict=Equal_info_between_of_the_cirlce_of_the_file2[ei:ei+8]
                                             
                                             
-                                            if number_predict[1:3]=="11" or number_predict[1:3]=="10":
+                                            if number_predict[0:3]=="011" or number_predict[0:3]=="010":
                                                     number_predict1="10"+number_predict[1:]
                                             elif number_predict[0:1]=="1":
                                                     number_predict2="11"+number_predict[2:]
@@ -310,7 +310,7 @@ class compression:
                                                     Equal_info_between_of_the_cirlce_of_the_file_11=Equal_info_between_of_the_cirlce_of_the_file_11+number_predict2
                                                    
                                                     
-                                            elif number_predict[1:3]=="00"  or number_predict[1:3]=="01":
+                                            elif number_predict[0:3]=="000"  or number_predict[0:3]=="001":
                                                                                        
                                                                                        
                                                             number_predict1="0"+number_predict[2:8]
