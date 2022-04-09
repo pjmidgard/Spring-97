@@ -299,8 +299,16 @@ class compression:
                                                             
                                                             Spin=1
                                                             number_predict1="10"+number_predict
+                                                            Equal_info_between_of_the_cirlce_of_the_file_11=Equal_info_between_of_the_cirlce_of_the_file_11+number_predict1
+                                                            
+                                                                                                        
+                                                            
+                                                    elif   Spin==1:
+                                                        
+                                                                                                           Equal_info_between_of_the_cirlce_of_the_file_11=Equal_info_between_of_the_cirlce_of_the_file_11+number_predict
+                                                        
 
-
+  
                                                     else:
                                                             number_predict1="0"+number_predict[2:8]
                                                                     
