@@ -297,40 +297,26 @@ class compression:
 
                                     while ei<=lenf6:
                                             number_predict=Equal_info_between_of_the_cirlce_of_the_file2[ei:ei+8]
-                                            er=ei%8
-                                            
-                                            if er==0:
-                                                Spin=0
                                             
                                             
-
-                                            if number_predict[0:2]!="00" and Spin==0:
-                                                    number_predict2="11"+number_predict
+                                            if number_predict[1:3]=="11" or number_predict[1:3]=="10":
+                                                    number_predict1="10"+number_predict[1:]
+                                            elif number_predict[0:1]=="1":
+                                                    number_predict2="11"+number_predict[2:]
                                                     
+                                                                                
+                                                                                
+                                                                                
                                                     Equal_info_between_of_the_cirlce_of_the_file_11=Equal_info_between_of_the_cirlce_of_the_file_11+number_predict2
-                                                    Spin=1
-
-
-                                            else:
+                                                   
                                                     
-   
-                                                            
-                                                                                                        
-                                                            
-                                                    if   Spin==1:
-                                                        
-                                                            Equal_info_between_of_the_cirlce_of_the_file_11=Equal_info_between_of_the_cirlce_of_the_file_11+number_predict
-                                                        
-
-  
-                                                    else:
-                                                            if number_predict[1:3]=="11" or number_predict[1:3]=="10":
-                                                                number_predict1="10"+number_predict[1:]
-                                                                
-                                                            else:
-                                                                    number_predict1="0"+number_predict[2:8]
+                                            elif number_predict[1:3]=="00"  or number_predict[1:3]=="01":
+                                                                                       
+                                                                                       
+                                                            number_predict1="0"+number_predict[2:8]
                                                                     
                                                             Equal_info_between_of_the_cirlce_of_the_file_11=Equal_info_between_of_the_cirlce_of_the_file_11+number_predict1
+
                                                     
                                             ei=ei+8
                                             
