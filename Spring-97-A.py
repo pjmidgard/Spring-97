@@ -305,15 +305,14 @@ class compression:
                                             
 
                                             if number_predict[0:2]=="11" and Spin==0 or number_predict[0:2]=="01" and Spin==0 or number_predict[0:2]=="10" and Spin==0:
-                                                    number_predict1="1"+number_predict[2:8]
+                                                   if number_predict[0:2]!="11" and Spin==0:
+                                                       number_predict1="10"+number_predict
                                                  
                                                  
                                                     
-                                                    Equal_info_between_of_the_cirlce_of_the_file_11=Equal_info_between_of_the_cirlce_of_the_file_11+number_predict1
-                                                    Spin=1
-
-
-                                            else:
+                                            Equal_info_between_of_the_cirlce_of_the_file_11=Equal_info_between_of_the_cirlce_of_the_file_11+number_predict1
+                                            Spin=1
+                                           else:
                                                     
    
                                                             
