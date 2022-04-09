@@ -204,8 +204,10 @@ class compression:
                                             sda="0"+sda
                                             z=z+1
 
-                                    Equal_info_between_of_the_cirlce_of_the_file_2=sda
+                                  
 
+                                    
+                                    Equal_info_between_of_the_cirlce_of_the_file_2=sda
                                     lenf3=len(Equal_info_between_of_the_cirlce_of_the_file_2)
                                 lenf2=len(Equal_info_between_of_the_cirlce_of_the_file_2)
                                 #print(lenf2)
@@ -265,19 +267,29 @@ class compression:
                                     Translate_info_Decimal=""
                                     
                                     Equal_info_between_of_the_cirlce_of_the_file_17=""
+                                   
                  
                                     
 
                                     lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
+                                    Equal_info_between_of_the_cirlce_of_the_file2=""
 
                                     if Circle_times2>=(2**48)-3:
                                             compress_or_not_compress=2
                                             
                                     Equal_info_between_of_the_cirlce_of_the_file2=Equal_info_between_of_the_cirlce_of_the_file
+                                  
                                     
+                                    
+ 
+                
+                                    
+                                
                                     nameas=name+".bin"
                                     Equal_info_between_of_the_cirlce_of_the_file_11=""
-
+                                    number_predict=Equal_info_between_of_the_cirlce_of_the_file2[0:8][::-1]
+                                    Equal_info_between_of_the_cirlce_of_the_file2=Equal_info_between_of_the_cirlce_of_the_file2[8:]+number_predict
+                                    
                                     
 
                                     Spin=0
@@ -325,9 +337,9 @@ class compression:
                               
                                     Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file_11
                                     lenfS=len(Equal_info_between_of_the_cirlce_of_the_file_17)
-                                    print(lenfS)
+                                    #print(lenfS)
                                     Circle_times2=Circle_times2+1
-                                    if   Circle_times2==1:
+                                    if   Circle_times2==100:
 
                                                 Equal_info_between_of_the_cirlce_of_the_file_17="1"+Equal_info_between_of_the_cirlce_of_the_file_17
 
@@ -361,7 +373,7 @@ class compression:
                                                         #while z<count_bits:
                                                          	#add_bits10="0"+add_bits10
                                                          	#z=z+1   
-                                    if Circle_times2==1:
+                                    if Circle_times2==100:
                                             lenf=len(Equal_info_between_of_the_cirlce_of_the_file_17)                                           
                                             Equal_info_between_of_the_cirlce_of_the_file_17=add_bits+Equal_info_between_of_the_cirlce_of_the_file_17
                                     #if   lenfS<=Deep3 or compress_or_not_compress==2:
@@ -388,7 +400,7 @@ class compression:
                                     	
                                     		
 
-                                    if   Circle_times2==1:
+                                    if   Circle_times2==100:
                                                 
                                     		L=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                     		n = int(Equal_info_between_of_the_cirlce_of_the_file_17, 2)
