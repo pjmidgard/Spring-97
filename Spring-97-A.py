@@ -287,11 +287,6 @@ class compression:
                                 
                                     nameas=name+".bin"
                                     Equal_info_between_of_the_cirlce_of_the_file_11=""
- 
-                                    
-                                    
-
-                                    Spin=0
 
                                     ei=0
 
