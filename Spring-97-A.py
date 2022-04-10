@@ -335,8 +335,8 @@ class compression:
                                     lenfS=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                    
                                 
-                                    print(lenfS) 
-                                    if lenf6==lenfS:
+                                    #print(lenfS) 
+                                    if lenf6<=lenfS:
                                           Deep3=lenfS
                                             
                                     if compress_or_not_compress==2 and Circle_times2==0:
