@@ -547,7 +547,7 @@ class compression:
                                                         ei=0
                                                         
 
-                                                        while ei<=lenf6:
+                                                        while ei!=lenf6:
                                                                     number_predict=Equal_info_between_of_the_cirlce_of_the_file[ei:ei+9]
                                                                     
                                                                     if number_predict[0:2]=="10":
@@ -568,14 +568,14 @@ class compression:
                                                                                                                
                                                                                                                
                                                                                     number_predict1="00"+number_predict[1:7]
+                                                                                   
                                                                                     
                                                                                             
                                                                                     Equal_info_between_of_the_cirlce_of_the_file_11=Equal_info_between_of_the_cirlce_of_the_file_11+number_predict1
                                                                                     ei=ei+7
 
                                                                             
-                                                                    if ei>=lenf6:
-                                                                            ei=ei+8
+                                                                  
                                                                             
                                                                     
                                                             
