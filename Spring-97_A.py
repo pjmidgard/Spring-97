@@ -230,7 +230,7 @@ class compression:
                                 
                                     Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file_2
                                     
-                                    lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
+
                                 
                                     add_bits=""
 
@@ -252,7 +252,9 @@ class compression:
                                             
                                     Number_of_the_file = int(Equal_info_between_of_the_cirlce_of_the_file, 2)
                                     
-                                    nameas=name+".bin" 
+                                    nameas=name+".bin"
+                                    lenf6=len(Equal_info_between_of_the_cirlce_of_the_file) 
+                                   
                                     
                                     bit=""
 
@@ -301,6 +303,9 @@ class compression:
                                     
                                     lenfS=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                     #print(lenfS)
+                                    if lenf6<=lenfS:
+                                        Deep3=lenfS
+                                        
 
                                     if compress_or_not_compress==2 and Circle_times2==0:
                                                     Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[1:]
