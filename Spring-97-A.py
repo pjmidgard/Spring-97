@@ -547,7 +547,7 @@ class compression:
                                                         ei=0
                                                         
 
-                                                        while ei!=lenf6:
+                                                        while ei<=lenf6:
                                                                     number_predict=Equal_info_between_of_the_cirlce_of_the_file[ei:ei+9]
                                                                     
                                                                     if number_predict[0:2]=="10":
@@ -574,7 +574,9 @@ class compression:
                                                                                     ei=ei+7
 
                                                                             
-                                                                    
+                                                                    if ei>=lenf6:
+                                                                            ei=ei+8
+                                                                            
                                                                     
                                                             
                                                             
@@ -582,8 +584,9 @@ class compression:
                                                             
 
                                                             
-                                                                
+                                                                    
                                                                     #print(len(Equal_info_between_of_the_cirlce_of_the_file_17))
+                                                                    #print(ei)
                               
                                  
                                                         
